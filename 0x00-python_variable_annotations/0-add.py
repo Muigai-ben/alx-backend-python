@@ -2,7 +2,7 @@
 ''' a python module that returns the addition'''
 
 def add(a: float, b: float) -> float:
-    """
+    '''
     Add two floats and return their sum.
 
     Args:
@@ -11,7 +11,7 @@ def add(a: float, b: float) -> float:
 
     Returns:
         float: The sum of a and b.
-    """
+    '''
     return a + b
 
 if __name__ == '__main__':  
