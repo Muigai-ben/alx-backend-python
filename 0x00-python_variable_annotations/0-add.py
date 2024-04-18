@@ -14,4 +14,5 @@ def add(a: float, b: float) -> float:
     return a + b
 
 if __name__ == "__main__":
-    print(add(3.5, 2.7))  # Example usage: prints 6.2
+    print(add(3.5, 2.7))  
+    print(add.__annotations__)
