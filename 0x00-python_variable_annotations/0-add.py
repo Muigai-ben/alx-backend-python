@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+''' a python module that returns the addition'''
 
 def add(a: float, b: float) -> float:
     """
