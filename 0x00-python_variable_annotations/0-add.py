@@ -13,6 +13,6 @@ def add(a: float, b: float) -> float:
     """
     return a + b
 
-if __name__ == '__main__':
-    print(add(3.5, 2.7))  
+if __name__ == '__main__':  
+    print(add(1.11, 2.22) == 1.11 + 2.22)
     print(add.__annotations__)
